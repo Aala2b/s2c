@@ -32,5 +32,17 @@ public class ScientificCalculator {
         System.out.println("0.  Exit");
 
     }
-    
+
+    // get 2 numbers from user
+    public static double[] getTwoNumbers(Scanner scanner){
+        system.out.print("Enter first number");
+        double num1= scanner.nextDouble();
+        system.out.print("Enter second number");
+        double num2= scanner.nextDouble();
+        return new double[]{num1, num2};
+    }
+    // Addition
+    public static double add(double num1, double num2){
+
+    }
 }
