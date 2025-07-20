@@ -41,10 +41,24 @@ public class ScientificCalculator {
         double num2= scanner.nextDouble();
         return new double[]{num1, num2};
     }
-    // Addition
+    // Basic Arithmetic operations
     public static double add(double a, double b){return a+b;}
     public static double subtract(double a, double b){return a-b; }
     public static double multiply(double a, double b) { return a * b; }
+    public static double divide(double a, double b) { return a / b; }
+ // Scientific math methods
+    public static double calculateSquareRoot(double a) {return Math.sqrt(a); }
+    public static double calculatePower(double base, double exponent) {return Math.pow(base,exponent);  }
+    public static double calculateSine(double angle) {return Math.sin(angle);}
+    public static double calculateCosine(double angle) {return Math.cos(angle);}
+    public static double calculateTangent(double angle) {return Math.tan(angle);}
+    public static double calculateNaturalLog(double a) {return Math.log(a);}
+    public static double calculateLogarithmBase10(double num) { return Math.log10(num);}
+    public static long roundNumber(double num) { return Math.round(num); }
+    public static double ceilingNumber(double num) { return Math.ceil(num); }
+    public static double floorNumber(double num) { return Math.floor(num); }
+    public static double findMin(double a, double b) { return Math.min(a, b); }
+    public static double findMax(double a, double b) { return Math.max(a, b); }
 
 
 
