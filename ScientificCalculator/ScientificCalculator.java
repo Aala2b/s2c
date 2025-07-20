@@ -42,7 +42,9 @@ public class ScientificCalculator {
         return new double[]{num1, num2};
     }
     // Addition
-    public static double add(double num1, double num2){
+    public static double add(double a, double b){return a+b;}
+    public static double subtract(double a, double b){return a-b; }
 
-    }
+
+
 }
